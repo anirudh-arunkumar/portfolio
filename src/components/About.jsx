@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full blue-green-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -40,18 +40,22 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a Computer Science student at Georgia Institute of Technology
+        graduating in May 2025. I am currently looking for full time Software
+        Engineering roles starting in August 2025. I have a passion for finance
+        and innovation, specifically in machine learning and full-stack development.
+        In the past I have interned at Truist Bank the 6th largest Bank in the 
+        United States across Credit Cards technology, Wire/ACH Payments, and lending 
+        platforms. My experiences in the financial industry have allowed me to impact 
+        millions of global clients. They have also allowed me to hone my skills in 
+        Python, Java, and Go. Feel free to connect with me!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
