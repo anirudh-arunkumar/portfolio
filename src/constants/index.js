@@ -4,6 +4,7 @@ import {
   creator,
   web,
   javascript,
+  python,
   typescript,
   html,
   css,
@@ -18,9 +19,12 @@ import {
   meta,
   starbucks,
   tesla,
+  truist,
   shopify,
   carrent,
   jobit,
+  georgia,
+  lightstream,
   tripguide,
   threejs,
 } from "../assets";
@@ -33,6 +37,16 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "resume",
+    title: "Resume",
+    link: "/Anirudh_Arunkumar_Resume.pdf",
+    external: true
+  },
+  {
+    id: "cv",
+    title: "CV",
   },
   {
     id: "contact",
@@ -61,12 +75,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
@@ -81,10 +91,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -97,7 +103,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "C",
     icon: threejs,
   },
   {
@@ -105,7 +111,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "AWS",
     icon: figma,
   },
   {
@@ -116,55 +122,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineering Co-Op",
+    company_name: "Truist Financial Corporation",
+    icon: truist,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - December 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Flask RESTful APIs serving 200,000+ users, enhancing account management and billing workflows.",
+      "Deployed natural language models with AWS SageMaker, pre-trained BERT LLM, and 20,000+ Human Resource documents, decreasing manual reporting by 100%.",
+      "Accelerated developer release velocity 1.5x by refactoring AWS Secrets Manager implementation across all credit cards APIs",
+      "Assisted with migrating 30+ Spring Boot on-prem APIs to an AWS cloud-native architecture improving security, maintainability, and application resilience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Machine Learning Researcher",
+    company_name: "Georgia Institute of Technology",
+    icon: georgia,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2023 - December 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created XGBoost, MLP, and ResNet50 classifiers using Pytorch for lung disease diagnosis from medical data, achieving 98% accuracy and 97% F1 score with multi-modal inputs (images and tabular).",
+      "Leveraged D3.js to visualize 7,000 light waves and RGB channels on interactive 3D surfaces and graphs.",
+      "Optimized a Generative Adversarial Deep Learning Network for optical nano-device design with 92% accuracy.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Engineering Intern",
+    company_name: "Truist Financial Corporation",
+    icon: truist,
+    iconBg: "#383E56",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with an Agile team to develop a critical application that can handle the movement of over 200 billion dollars per day through Financial Transaction Manager (FTM), Wire Payment Initiation (WPI), SWIFT, FEDLine Direct, and CHIPS.",
+      "Modified repetitive request handling logic in Java Spring Boot APIs, decreasing payment transaction processing time by 15%.",
+      "Performed MySQL query optimizations and materialized tables, reducing runtime by up to 90%.",
+      "Resolved persistent bugs by debugging legacy code using JUnit tests, improving code coverage by 200 cases.",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
+    company_name: "LightStream",
+    icon: lightstream,
+    iconBg: "#E6DEDD",
+    date: "June 2022 - August 2022",
+    points: [
+      " Enhanced microservices speed via gRPC implementation, triggering a performance boost of over 50%.",
+      "Implemented automation scripts using Terraform and Dynatrace to monitor the performance of 5+ microservices.",
+      "Streamlined developer workflow in an Agile team through GitHub Actions, Confluence, and 3 new Go packages.",
     ],
   },
 ];
@@ -198,65 +202,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NBA Win Prediction Model",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
+      "Collaborated with a team of four to develop models using Random Forest, SVM, and etc. Analyzed NBA data and predicted winning outcome of two teams.",
+    tags: [],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://endeavored.github.io/cs4641/",
   },
   {
-    name: "Job IT",
+    name: "Distance Sensing Robot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+      "Built an autonomous robot that can avoid obstacles. It also has a voice control mode which can be controlled through a mobile android app.",
+    tags: [],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sufiyanahmed024/ECE_4180_FinalProject",
   },
   {
-    name: "Trip Guide",
+    name: "Coinhood",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
+      "An application that automatically invests my money by calling the Robinhood API based on live crypto market data.",
+    tags: [],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
