@@ -29,7 +29,7 @@ const Hero = () => {
         <img 
         src={profile}
         alt="Anirudh's profile"
-        className="w-[600px] h-[600px] rounded-full object-cover"
+        className="w-[500px] h-[500px] rounded-full object-cover"
         />
       </div>
 
