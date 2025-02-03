@@ -45,10 +45,6 @@ export const navLinks = [
     external: true
   },
   {
-    id: "cv",
-    title: "CV",
-  },
-  {
     id: "contact",
     title: "Contact",
   },
