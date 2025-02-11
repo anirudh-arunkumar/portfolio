@@ -31,6 +31,10 @@ import {
 
 export const navLinks = [
   {
+    id: "",
+    title: "Home",
+  },
+  {
     id: "about",
     title: "About",
   },
@@ -200,7 +204,7 @@ const projects = [
   {
     name: "NBA Win Prediction Model",
     description:
-      "Collaborated with a team of four to develop models using Random Forest, SVM, and etc. Analyzed NBA data and predicted winning outcome of two teams.",
+      "Collaborated with a team of four to develop models using Random Forest, SVM, and Logistic Regression. Analyzed NBA data and predicted winning outcome of two teams.",
     tags: [],
     image: carrent,
     source_code_link: "https://endeavored.github.io/cs4641/",

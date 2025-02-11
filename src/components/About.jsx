@@ -51,7 +51,7 @@ const About = () => {
         graduating in May 2025. I am currently looking for full time Software
         Engineering roles starting in August 2025. I have a passion for finance
         and innovation, specifically in machine learning and full-stack development.
-        In the past I have interned at Truist Bank the 6th largest Bank in the 
+        In the past I have interned at Truist Bank, the 6th largest Bank in the 
         United States across Credit Cards technology, Wire/ACH Payments, and lending 
         platforms. My experiences in the financial industry have allowed me to impact 
         millions of global clients. They have also allowed me to hone my skills in 
