@@ -122,17 +122,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineering Co-Op",
+    title: "Teaching Assistant at College of Computing",
+    company_name: "Georgia Institute of Technology",
+    icon: georgia,
+    iconBg: "#383E56",
+    date: "January 2025 - Present",
+    points: [],
+  },
+  {
+    title: "Software Engineer Intern",
     company_name: "Truist Financial Corporation",
     icon: truist,
     iconBg: "#383E56",
     date: "June 2024 - December 2024",
-    points: [
-      "Developed Flask RESTful APIs serving 200,000+ users, enhancing account management and billing workflows.",
-      "Deployed natural language models with AWS SageMaker, pre-trained BERT LLM, and 20,000+ Human Resource documents, decreasing manual reporting by 100%.",
-      "Accelerated developer release velocity 1.5x by refactoring AWS Secrets Manager implementation across all credit cards APIs",
-      "Assisted with migrating 30+ Spring Boot on-prem APIs to an AWS cloud-native architecture improving security, maintainability, and application resilience.",
-    ],
+    points: [],
   },
   {
     title: "Machine Learning Researcher",
@@ -140,11 +143,7 @@ const experiences = [
     icon: georgia,
     iconBg: "#383E56",
     date: "August 2023 - December 2024",
-    points: [
-      "Created XGBoost, MLP, and ResNet50 classifiers using Pytorch for lung disease diagnosis from medical data, achieving 98% accuracy and 97% F1 score with multi-modal inputs (images and tabular).",
-      "Leveraged D3.js to visualize 7,000 light waves and RGB channels on interactive 3D surfaces and graphs.",
-      "Optimized a Generative Adversarial Deep Learning Network for optical nano-device design with 92% accuracy.",
-    ],
+    points: [],
   },
   {
     title: "Software Engineering Intern",
@@ -152,12 +151,7 @@ const experiences = [
     icon: truist,
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
-    points: [
-      "Collaborated with an Agile team to develop a critical application that can handle the movement of over 200 billion dollars per day through Financial Transaction Manager (FTM), Wire Payment Initiation (WPI), SWIFT, FEDLine Direct, and CHIPS.",
-      "Modified repetitive request handling logic in Java Spring Boot APIs, decreasing payment transaction processing time by 15%.",
-      "Performed MySQL query optimizations and materialized tables, reducing runtime by up to 90%.",
-      "Resolved persistent bugs by debugging legacy code using JUnit tests, improving code coverage by 200 cases.",
-    ],
+    points: [],
   },
   {
     title: "Software Engineering Intern",
@@ -165,11 +159,7 @@ const experiences = [
     icon: lightstream,
     iconBg: "#E6DEDD",
     date: "June 2022 - August 2022",
-    points: [
-      " Enhanced microservices speed via gRPC implementation, triggering a performance boost of over 50%.",
-      "Implemented automation scripts using Terraform and Dynatrace to monitor the performance of 5+ microservices.",
-      "Streamlined developer workflow in an Agile team through GitHub Actions, Confluence, and 3 new Go packages.",
-    ],
+    points: [],
   },
 ];
 
