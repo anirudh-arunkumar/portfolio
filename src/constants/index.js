@@ -146,7 +146,7 @@ const experiences = [
     points: [],
   },
   {
-    title: "Software Engineering Intern",
+    title: "Software Engineer Intern",
     company_name: "Truist Financial Corporation",
     icon: truist,
     iconBg: "#383E56",
@@ -154,7 +154,7 @@ const experiences = [
     points: [],
   },
   {
-    title: "Software Engineering Intern",
+    title: "Software Engineer Intern",
     company_name: "LightStream",
     icon: lightstream,
     iconBg: "#E6DEDD",
